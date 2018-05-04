@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: cz.jkremlacek.pa036csvtokml.Main
+
