@@ -35,10 +35,10 @@ public class Convertor {
                     String description = "";
 
                     for (int i = 3; i < parts.length; i++) {
-                        description += parts[i];
+                        description += parts[i] + " <br/>";
                     }
 
-                    KMLFormatStrings.addPlacemark(outputSB, parts[2], description, parts[1].replace("\"", ""), parts[0].replace("\"", ""));
+                    KMLFormatStrings.addPlacemark(outputSB, parts[2].replace("\"", ""), description, parts[1].replace("\"", ""), parts[0].replace("\"", ""));
                 }
             }
 
